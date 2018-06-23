@@ -6,8 +6,6 @@ const STATIC_CACHE = "1.1";
 var urlsToCache = [
     '/',
     '/index.html',
-    '/dist/main.css',
-    '/dist/bundle.js',
     '/resources/scripts/script.js',
     '/offline.html'
   ];
