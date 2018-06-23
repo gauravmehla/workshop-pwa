@@ -20,7 +20,7 @@ self.addEventListener('install', (event) => {
     )
 })
 
-//getting the pages up offline 
+/* getting the pages up offline 
 self.addEventListener('fetch',(event) => {
     event.respondWith(
         caches.match(event.request)
@@ -32,6 +32,7 @@ self.addEventListener('fetch',(event) => {
         })
     )
 })
+*/
 
 
 // offline page 
